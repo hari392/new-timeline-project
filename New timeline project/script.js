@@ -46,10 +46,10 @@ $(document).ready(function () {
 
     // Click handler for timeline years
     $('.year').on('click', function () {
-        const index = $(this).data('year'); // Get the index from the data-year attribute
-        console.log('Year clicked:', index); // Debug log
-        currentIndex = index; // Update the current index
-        showSlide(currentIndex); // Update the visible slide
+        const index = $(this).data('year'); 
+        console.log('Year clicked:', index);
+        currentIndex = index; 
+        showSlide(currentIndex); 
 
         // Highlight the active year
         $('.year').removeClass('active');
